@@ -1,3 +1,23 @@
-.principal {
-    background-image: url("https://i.pinimg.com/originals/53/51/09/535109e4ab3c71e23bcea45c8afdf37d.jpg");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
