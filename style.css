@@ -4,20 +4,39 @@
 }
 
 .cabecalho {
-    background-color: #424E61;
+    background-color: #929eb1;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 15px 40px;
 }
 
 .cabecalho-imagem{
-    width: 10%;
+    width: 3%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.Titulo1{
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.LoremIpsum{
+    margin-left: 2%;
+    padding-right: 5px;
+    padding-top: 10px;
+
+}
+
+.Titulo2{
+    margin-left: 2%;
+    padding-top: 2%;
+
 }
