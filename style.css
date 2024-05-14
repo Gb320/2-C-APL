@@ -1,11 +1,21 @@
+:root {
+    --white : #ffffff;
+    --black : #000000;
+    --lightblue : #7fb3d5;
+}
+
+body {
+    background-color: black;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .cabecalho {
-    background-color: #929eb1;
-    color: white;
+    background-color: var(--lightblue);
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,19 +26,30 @@
     width: 3%;
 }
 
+.cabecalho-lista-item:hover {
+    transform: translateY(-10px)
+}
+
 .cabecalho-lista-item{
+    /*Transition properties*/
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
 }
 
 .Titulo1{
+    color: var(--white);
     margin-top: 2%;
     margin-left: 2%;
 
 }
 
 .LoremIpsum{
+    color: var(--white);
     margin-left: 2%;
     padding-right: 5px;
     padding-top: 10px;
@@ -36,6 +57,7 @@
 }
 
 .Titulo2{
+    color: var(--white);
     margin-left: 2%;
     padding-top: 2%;
 
